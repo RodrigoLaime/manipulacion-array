@@ -92,6 +92,8 @@ sort() //orden los array y es un metodo mutable
 1.
 ¿El método forEach es el recomendado para filtrar elementos de un array?
 Falso
+
+
 2.mal----------
 ¿Por qué el siguiente código cambia el estado original del array?
 
@@ -100,11 +102,14 @@ const rta = array.map(item => {
   item.name = 'My name';
   return item; 
 })
-Porque map es un método que cambia el estado original del array.
-REPASAR CLASE
+Porque al trabajar con objetos se está modificando la referencia en memoria.
+
+
 3.
 ¿Filter es un método que cambia el estado original de un array?
 Falso
+
+
 4.
 ¿Cuál es el resultado del siguiente código?
 
@@ -112,24 +117,32 @@ const array = ['a', 'bb', 'ccc'];
 const rta = array.map(item => item.length);
 [ 1, 2, 3 ]
 
+
 5.
 Si quiero obtener la suma de todos los valores de este array [1,1,1,1,1], ¿cuál es el código que lo va a resolver?
 
 const array = [1,1,1,1,1]; 
 const rta = array.reduce((total, item) => total + item, 0)
-6.mal---------------
+
+
+6.
 ¿Reduce es un método que NO cambia el estado original de un array?
-Falso
-REPASAR CLASE
+verdadero
+
+
 7.
 ¿Cuál de estos métodos me retorna un true si alguno de los elementos del array tiene este emoji 🐸?
 
 const array = ['🐸','🐱','🐹']; 
 const rta = array.some(item => item === '🐸')
+
+
 8.
 ¿Cuál de estos métodos me retorna la posición del array en donde está el emoji 🐸?
 const array = ['🐸','🐱','🐹']; 
 const rta = array.findIndex(item => item === '🐸'); 
+
+
 9.
 ¿Cuál es el resultado del siguiente código?
 
@@ -137,16 +150,21 @@ const array = [['🐸','🐱'],'🐹', ['🐯']];
 const rta = array.flat();
 [ '🐸', '🐱', '🐹', '🐯' ]
 
+
 10.
 ¿Sort es un método que cambia el estado original de un array?
 Verdadero
+
+
 11.
 ¿Cuál es una forma de copiar los elementos de un array sin tener problemas de mutabilidad?
 const listA = [1,2,2,4]; 
 const newList = [...listA];
+
+
 12.
 ¿Cuál de los siguientes códigos ordena este array [11,1,13,99,8] de menor a mayor?
 
 const array = [11,1,13,99,8]; 
-array.sort((a,b) => a - b);
+array.sort((a,b) => a < b);
  -->
