@@ -1,4 +1,14 @@
 ##
+.forEach //sirve para recorrer un array
+
+##
+introducion al baquen 
+consumo de apis
+web compones
+##
+-cuando cambiamos el array original realizamos una mutacion
+-cuando generamos un nuevo esatado (clonar o agregar cambios), generamos una estructura de datos inmutable
+##
 .MAP //transformar, devuelve un array a partir de otro array
 ##
 -La función, que recibe como argumento el método map, utiliza tres parámetros:
