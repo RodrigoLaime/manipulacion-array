@@ -63,7 +63,7 @@ spreadOperator // tener en cuenta que recivas un array para poder hacer un mergu
 
 ##
 -flat() // los arrays que esten dentro de arrays flat une los elementos en un solo array.
-flat aplan los array que esten dentro de otro array
+flat aplana los array que esten dentro de otro array
 -flatMap() //aplana los array que esten dentro de otro array y los ba transformando a medida que lo ba aplanando.
 
 ## 
